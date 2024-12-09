@@ -1,3 +1,4 @@
 resources:
   - ./flux.yml
   - ./sync.yml
+  - ./stuff.yml

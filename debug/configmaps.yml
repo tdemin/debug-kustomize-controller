@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: debug
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: debug1
+  namespace: debug
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: debug2
+  namespace: debug
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: debug3
+  namespace: debug
